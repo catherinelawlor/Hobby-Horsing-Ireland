@@ -18,7 +18,7 @@
         
            
             
-        background-image: url(icon/HH\ icon\ 2.png);
+        background-image: url(Icon/HH\ icon\ 2.png);
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: 50% 50%;
@@ -27,7 +27,7 @@
         
 
     nav  {
-        background-image: url("download/background banner/a-soft-pastel-award.png");
+        background-image: url("Downloads/Background banner/a\ soft\ pastel\ award\ .png");
         background-repeat: repeat-x;
         background-size: contain;
 
@@ -183,7 +183,7 @@
 }
 
 .banner {
-  background-image: url("downloads/background\banner\banner.png");
+  background-image: url("Downloads/Background banner/a\ soft\ pastel\ award\ .png");
   background-repeat: no-repeat;
   background-position: center;
   background-attachment: scroll;
