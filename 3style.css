@@ -10,20 +10,31 @@
     
         
         
-     .home {
-        
+    .home {
+        position: relative;
         font-family: Arial, sans-serif;
         margin: 0;
         padding-left: 40px;
-        
-           
-            
+
         background-image: url("Icons/HH icon 2.png");
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-position: 50% 50%;
-          
-     }   
+        }
+
+    
+    .home::before {
+        content: "";
+        position: fixed;
+        top:    0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background: rgba(255, 255, 255, 0.6); /* adjust opacity */
+        pointer-events: none;
+        z-index: -1;
+    }
+
         
 
     nav  {
